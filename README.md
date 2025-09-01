@@ -20,15 +20,45 @@ This repository serves as the single source of truth for all GitHub Copilot inst
 
 ### For Users
 
-1. Install the Logient Prompt Bank VS Code extension
-2. Your prompts will automatically sync and be available in all projects
+1. **Install the VS Code Extension**
+
+   - Download the latest `prompts-sync-extension-{version}.vsix` from `tools/vscode-extension/`
+   - Install via VS Code: `Ctrl+Shift+P` → "Extensions: Install from VSIX"
+   - Restart VS Code when prompted
+
+2. **Verify Installation**
+
+   - Check for sync status indicator in the status bar
+   - Your prompts will automatically sync and be available in all projects
+
+3. **Start Using Prompts**
+   - Instructions automatically apply to your code
+   - Access prompts through GitHub Copilot's prompt picker
+   - Use custom chat modes for specialized assistance
+
+👉 **[Complete Installation Guide](docs/installation-guide.md)**
 
 ### For Contributors
 
-1. Read the [Contribution Guide](docs/contribution-guide.md)
-2. Fork the repository or create a feature branch
-3. Add your prompts following our [templates](docs/templates/)
-4. Submit a pull request for review
+1. **Read the Documentation**
+
+   - Review the [Contribution Guide](docs/contribution-guide.md)
+   - Check [Best Practices](docs/best-practices.md) for writing effective prompts
+   - Use the provided [Templates](docs/templates/) for consistency
+
+2. **Set Up Development Environment**
+
+   ```bash
+   git clone https://github.com/MounirAbdousNventive/prompts-logient-nventive.git
+   cd prompts-logient-nventive
+   ```
+
+3. **Add Your Prompts**
+   - Create new prompt files following the [template formats](docs/templates/)
+   - Test your prompts locally
+   - Submit a pull request for review
+
+👉 **[Complete Contribution Guide](docs/contribution-guide.md)**
 
 ## 📁 Repository Structure
 
@@ -55,11 +85,22 @@ This repository serves as the single source of truth for all GitHub Copilot inst
 
 ## 📖 Documentation
 
-- [Usage Guide](docs/usage-guide.md) - How to use the prompt bank
-- [Contribution Guide](docs/contribution-guide.md) - How to contribute new prompts
-- [Best Practices](docs/best-practices.md) - Guidelines for writing effective prompts
-- [Implementation Plan](docs/implementation-plan.md) - Detailed project plan
-- [Technical Architecture](docs/technical-architecture.md) - Technical implementation details
+### User Guides
+
+- [Installation Guide](docs/installation-guide.md) - Complete setup and installation instructions
+- [Usage Guide](docs/usage-guide.md) - How to use the prompt bank effectively
+- [Best Practices](docs/best-practices.md) - Guidelines for writing and using effective prompts
+
+### Developer Resources
+
+- [Contribution Guide](docs/contribution-guide.md) - How to contribute new prompts and improvements
+- [Technical Architecture](docs/technical-architecture.md) - System design and implementation details
+- [API Reference](docs/api-reference.md) - Complete API documentation for the VS Code extension
+
+### Templates and Standards
+
+- [Templates](docs/templates/) - Standardized formats for all prompt types
+- [Prompt Format Specification](docs/technical-architecture.md#-prompt-file-format-specification) - Technical format requirements
 
 ## 🤝 Contributing
 
