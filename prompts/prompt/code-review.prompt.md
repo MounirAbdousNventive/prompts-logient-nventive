@@ -27,23 +27,6 @@ Review Process:
 3. After your preparation, provide a comprehensive review following this structure:
 
 ```markdown
-<description>
-## [Create a PR Title]
-[Provide a concise summary description of the PR, highlighting key changes and their purpose. Include any relevant context or background information.]
-
-## Key Changes
-
-- [Change 1]
-- [Change 2]
-- [Concern 1]
-- [Concern 2]
-
-## Original description
-
-[Include the original PR description here verbatim. Do not modify or summarize it, but reomve the parts of it that overlap with your summary above.]
-[Preserve images, links, and formatting from the original description.]
-</description>
-
 <final_review>
 
 ## Main Concerns
@@ -124,5 +107,5 @@ Important guidelines:
 - Do not ask questions or seek clarification from the PR author.
 - If no improvements are possible for a given file, do not provide unnecessary commentary.
 
-Your final response should only include the formatted review, starting with the High-Level Summary section.
+Your final response should only include the formatted review.
 Write your response in a review.md
